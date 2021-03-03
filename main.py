@@ -1,5 +1,5 @@
 try:
-    import pyautogui, time, os, webbrowser
+    import pyautogui, time, os, webbrowser, random
     from os import system, name
     import sys
     print('All required packages have been found!')
@@ -17,6 +17,41 @@ def clear():
         _ = system('cls')
     else:
         _ = system('clear')
+def Dankmemer():
+    pyautogui.typewrite("pls beg")
+    pyautogui.press("enter")
+    time.sleep(1)
+    pyautogui.typewrite('Pls fish')
+    pyautogui.press("enter")
+    time.sleep(1)
+    pyautogui.typewrite("Pls hunt")
+    pyautogui.press("enter")
+    time.sleep(1)
+    pyautogui.typewrite("Pls postmeme")
+    pyautogui.press("enter")
+    time.sleep(1)
+    n = random.randint(1, 5)
+    if n == 1:
+        pyautogui.typewrite("F")
+        pyautogui.press("enter")
+    elif n == 2:
+        pyautogui.typewrite("R")
+        pyautogui.press("enter")
+    elif n == 3:
+        pyautogui.typewrite("I")
+        pyautogui.press("enter")
+    elif n == 4:
+        pyautogui.typewrite("C")
+        pyautogui.press("enter")
+    elif n == 5:
+        pyautogui.typewrite("K")
+        pyautogui.press("enter")
+
+    time.sleep(5)
+    pyautogui.typewrite("pls dep all")
+    pyautogui.press("enter")
+
+
 
 
 clear()
@@ -400,7 +435,9 @@ while True:
     time.sleep(1)
     print('6. Info')
     time.sleep(1)
-    print('7. Exit')
+    print("7. Dank memer filler")
+    time.sleep(1)
+    print('8. Exit')
     time.sleep(1)
 
     i = int(input('Select option: '))
@@ -672,6 +709,20 @@ while True:
         if support.upper() == 'Y':
             webbrowser.open(url='paypal.me/james1collum')#poggers1337
     elif i == 7:
+        print('7.Dank memer bot selected!')
+        time.sleep(1)
+        clear()
+        how_long = int(input("How long For each repeat: "))
+        how_times = int(input("How Many times: "))
+        print('5 seconds before it starts')
+        time.sleep(5)
+        for _ in range(how_times):
+            Dankmemer()
+            time.sleep(how_long)
+
+        print("Finished!")
+
+    elif i == 8:
         print('End')
         break
 
