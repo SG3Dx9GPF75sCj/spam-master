@@ -2,7 +2,7 @@
 I legally take no responsiblity if anything happens to you or your device!
 If you get banned from messaging services and other services that is on you. I have no control of what your doing!
 # Builds
-I have included a Windows Build (I think) And a macos .app will be coming soon!
+I have included a a macos .app/terminal and a Windows Build will be coming very soon!
 # Copywrite
 MIT License
 
