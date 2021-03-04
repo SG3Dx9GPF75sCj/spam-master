@@ -17,10 +17,11 @@ def clear():
         _ = system('cls')
     else:
         _ = system('clear')
-def Dankmemer():
+def dankmemer():
+    time.sleep(45)
     pyautogui.typewrite("pls beg")
     pyautogui.press("enter")
-    time.sleep(1)
+    time.sleep(20)
     pyautogui.typewrite('Pls fish')
     pyautogui.press("enter")
     time.sleep(1)
@@ -712,13 +713,12 @@ while True:
         print('7.Dank memer bot selected!')
         time.sleep(1)
         clear()
-        how_long = int(input("How long For each repeat: "))
         how_times = int(input("How Many times: "))
         print('5 seconds before it starts')
         time.sleep(5)
         for _ in range(how_times):
-            Dankmemer()
-            time.sleep(how_long)
+            dankmemer()
+
 
         print("Finished!")
 
