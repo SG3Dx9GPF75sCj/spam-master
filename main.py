@@ -68,6 +68,7 @@ def dankmemer():
 
             time.sleep(1)
             pyautogui.typewrite("pls search")
+            pyautogui.press("enter")
             abc = random.randint(1, 5)
             time.sleep(1)
             if abc == 1:
