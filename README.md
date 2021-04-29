@@ -1,3 +1,5 @@
+# Discord
+sɹǝƃƃod#5183
 # Spammer
 I legally take no responsiblity if anything happens to you or your device!
 If you get banned from messaging services and other services that is on you. I have no control of what your doing!
