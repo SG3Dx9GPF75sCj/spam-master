@@ -1,22 +1,20 @@
-try:
-    import pyautogui, time, os, webbrowser, random
-    from os import system, name
-    import sys
-    print('All required packages have been found!')
-    time.sleep(1)
-except:
-    try:
-        os.system('pip install pyautogui')
-        print('All packages have been installed!')
-        time.sleep(1)
-    except:
-        print('Cannot Install packages!')
-        exit()
+
+import pyautogui, time, os, webbrowser, random
+from os import system, name
+import sys
+print('All required packages have been found!')
+time.sleep(1)
+
 def clear():
-    if os.name == 'nt':
+  
+    # for windows
+    if name == 'nt':
         _ = system('cls')
+  
+    # for mac and linux(here, os.name is 'posix')
     else:
         _ = system('clear')
+
 def dankmemer():
     for _ in range(24):
         pyautogui.typewrite("pls buy Laptop")
@@ -101,8 +99,8 @@ def dankmemer():
 
 
 
-clear()
-screenWidth, screenHeight = pyautogui.size()
+
+
 #replace all '" in files
 
 
@@ -129,6 +127,7 @@ if annoying.upper() == 'Y':
         annoy = tag1
 
     while True:
+        clear()
         print('')
         print('')
         print('Spam bot!')
@@ -154,6 +153,7 @@ if annoying.upper() == 'Y':
 
         i = int(input('Select option: '))
         if i == 1:
+            clear()
             print('1. Bee movie Script Selected!')
             print(
                 '...........................................................................................................................')
@@ -174,6 +174,7 @@ if annoying.upper() == 'Y':
                 pyautogui.press("enter")
             print('completed!')
         elif i == 2:
+            clear()
             print('2. Shrek Scripts Selected!')#poggers1337
             print(
                 '...........................................................................................................................')
@@ -188,6 +189,7 @@ if annoying.upper() == 'Y':
             time.sleep(1)
             script_choice_shrek = int(input('Select option: '))
             if script_choice_shrek == 1:
+                clear()
                 time.sleep(1)
                 print('Shrek 1 Selected!')
                 time.sleep(1)
@@ -206,6 +208,7 @@ if annoying.upper() == 'Y':
                     pyautogui.press("enter")
                 print('Completed!')
             elif script_choice_shrek == 2:
+                clear()
                 time.sleep(1)
                 print('Shrek 2 Selected!')#poggers1337
                 time.sleep(1)
@@ -225,6 +228,7 @@ if annoying.upper() == 'Y':
                 print('Completed!')
 
             elif script_choice_shrek == 3:
+                clear()
                 time.sleep(1)
                 print('Shrek 3 Selected!')
                 time.sleep(1)
@@ -244,6 +248,7 @@ if annoying.upper() == 'Y':
                 print('Completed!')
 
             elif script_choice_shrek == 4:
+                clear()
                 time.sleep(1)
                 print('Shrek 4 Selected!')#poggers1337
                 time.sleep(1)
@@ -251,6 +256,7 @@ if annoying.upper() == 'Y':
             else:
                 print('Invalid Choice!')
         elif i == 3:
+            clear()
             print('3. Wiki Pages Selected!')
             print(
                 '...........................................................................................................................')
@@ -267,6 +273,7 @@ if annoying.upper() == 'Y':
             time.sleep(1)
             wiki_selection = int(input('Select Option: '))
             if wiki_selection == 1:
+                clear()
                 print('Cheese Selected!')
                 time.sleep(1)
                 print('Leave this running on a Text chat like discord or skype!')
@@ -285,6 +292,7 @@ if annoying.upper() == 'Y':
                     pyautogui.press("enter")
                 print('Completed!')
         elif i == 4:#poggers1337
+            clear()
             print('4. Song scripts selected!')
             print(
                 '...........................................................................................................................')
@@ -305,6 +313,7 @@ if annoying.upper() == 'Y':
             time.sleep(1)
             song_selection = int(input('Select option: '))
             if song_selection == 1:
+                clear()
                 print('1. Rick Roll Selected')
                 time.sleep(1)
                 print('Starting in 5 seconds')
@@ -320,6 +329,7 @@ if annoying.upper() == 'Y':
 
                 print('Completed!')
             elif song_selection == 2:
+                clear()
                 print('2. Dat Boi Sus Selected')
                 time.sleep(1)
                 print('Starting in 5 seconds')
@@ -334,6 +344,7 @@ if annoying.upper() == 'Y':
                     pyautogui.press("enter")
 
             elif song_selection == 3:
+                clear()
                 print('3. Wap Selected')
                 time.sleep(1)
                 print('Starting in 5 seconds')
@@ -348,6 +359,7 @@ if annoying.upper() == 'Y':
                     pyautogui.press("enter")
 
             elif song_selection == 4:
+                clear()
                 print('4. Black Beatles Selected')
                 time.sleep(1)
                 print('Starting in 5 seconds')
@@ -489,6 +501,7 @@ while True:
 
     i = int(input('Select option: '))
     if i == 1:
+        clear()
         print('1. Bee movie Script Selected!')
         print('...........................................................................................................................')
         print('')
@@ -506,6 +519,7 @@ while True:
             pyautogui.press("enter")
         print('completed!')
     elif i == 2:
+        clear()
         print('2. Shrek Scripts Selected!')
         print(
             '...........................................................................................................................')
@@ -520,6 +534,7 @@ while True:
         time.sleep(1)
         script_choice_shrek = int(input('Select option: '))
         if script_choice_shrek == 1:
+            clear()
             time.sleep(1)
             print('Shrek 1 Selected!')
             time.sleep(1)
@@ -536,6 +551,7 @@ while True:
                 pyautogui.press("enter")
             print('Completed!')
         elif script_choice_shrek == 2:
+            clear()
             time.sleep(1)
             print('Shrek 2 Selected!')
             time.sleep(1)
@@ -553,6 +569,7 @@ while True:
             print('Completed!')
 
         elif script_choice_shrek == 3:
+            clear()
             time.sleep(1)
             print('Shrek 3 Selected!')
             time.sleep(1)
@@ -570,6 +587,7 @@ while True:
             print('Completed!')
 
         elif script_choice_shrek == 4:
+            clear()
             time.sleep(1)
             print('Shrek 4 Selected!')
             time.sleep(1)
@@ -577,6 +595,7 @@ while True:
         else:
             print('Invalid Choice!')
     elif i == 3:
+        clear()
         print('3. Wiki Pages Selected!')
         print(
             '...........................................................................................................................')
@@ -593,6 +612,7 @@ while True:
         time.sleep(1)
         wiki_selection = int(input('Select Option: '))
         if wiki_selection == 1:
+            clear()
             print('Wikipedia Selected!')
             time.sleep(1)
             print('Leave this running on a Text chat like discord or skype!')
@@ -609,6 +629,7 @@ while True:
                 pyautogui.press("enter")
             print('Completed!')
         elif wiki_selection == 2:
+            clear()
             print('Cheese Selected!')
             time.sleep(1)
             print('Leave this running on a Text chat like discord or skype!')
@@ -625,77 +646,242 @@ while True:
                 pyautogui.press("enter")
             print('Completed!')
     elif i == 4:
-        print('4. Song scripts selected!')
-        print(
-            '...........................................................................................................................')
-        print('')
-        time.sleep(1)
-        print("These Song Scripts are the Base of all of them and more will be added!")
-        time.sleep(1)
-        print('DM me if you want to add more. Go to info for contacts!')
-        print('Or you could make a push on Github!')
-        time.sleep(1)#poggers1337
-        print('1. Rick Roll')
-        time.sleep(1)
-        print('2. Dat Boi Sus')
-        time.sleep(1)
-        print('3. Wap')
-        time.sleep(1)
-        print('4. Black Beatles')
-        time.sleep(1)
-        song_selection = int(input('Select option: '))
-        if song_selection == 1:
-            print('1. Rick Roll Selected')
+        clear()
+        RETURN_MENU = True
+        while RETURN_MENU == True:
+            print('4. Song scripts selected!')
+            print(
+                '...........................................................................................................................')
+            print('')
             time.sleep(1)
-            print('Starting in 5 seconds')
-            time.sleep(5)
-            f = open("Scripts/songs/rick_roll.txt", 'r', encoding="utf8")
-            for word in f:
-                pyautogui.press("shift" + "enter")
-                pyautogui.typewrite(word)
-                time.sleep(1)#poggers1337
-                pyautogui.press("enter")
-
-            print('Completed!')
-        elif song_selection == 2:
-            print('2. Dat Boi Sus Selected')
+            print("These Song Scripts are the Base of all of them and more will be added!")
             time.sleep(1)
-            print('Starting in 5 seconds')
-            time.sleep(5)
-            f = open("Scripts/songs/hatchback.txt", 'r', encoding="utf8")
-            for word in f:
-                pyautogui.press("shift" + "enter")
-                pyautogui.typewrite(word)
+            print('DM me if you want to add more. Go to info for contacts!')
+            print('Or you could make a push on Github!')
+            time.sleep(1)#poggers1337
+            print('69420. Exit to menu')
+            time.sleep(1)
+            print('0. Every song on the list')
+            time.sleep(1)
+            print('1. Rick Roll')
+            time.sleep(1)
+            print('2. Dat Boi Sus')
+            time.sleep(1)
+            print('3. Wap')
+            time.sleep(1)
+            print('4. Black Beatles')
+            time.sleep(1)
+            print('5. Erkia')
+            time.sleep(1)
+            print('6. Save your tears (Remix)')
+            time.sleep(1)
+            print('7. The Business')
+            time.sleep(1)
+            print("8. I don't wanna be in love")
+            song_selection = int(input('Select option: '))
+            if song_selection == 1:
+                clear()
+                print('1. Rick Roll Selected')
                 time.sleep(1)
-                pyautogui.press("enter")
-
-        elif song_selection == 3:
-            print('3. Wap Selected')
-            time.sleep(1)
-            print('Starting in 5 seconds')
-            time.sleep(5)#poggers1337
-            f = open("Scripts/songs/wap.txt", 'r', encoding="utf8")
-            for word in f:
-                pyautogui.press("shift" + "enter")
-                pyautogui.typewrite(word)
+                print('Starting in 5 seconds')
+                time.sleep(5)
+                f = open("Scripts/songs/rick_roll.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+            elif song_selection == 69420:
+                clear()
+                print('returing to menu!')
                 time.sleep(1)
-                pyautogui.press("enter")
+                RETURN_MENU = False
 
-        elif song_selection == 4:
-            print('4. Black Beatles Selected')
-            time.sleep(1)
-            print('Starting in 5 seconds')
-            time.sleep(5)
-            f = open("Scripts/songs/blackbeatles.txt", 'r', encoding="utf8")
-            for word in f:
-                pyautogui.press("shift" + "enter")
-                pyautogui.typewrite(word)
+            elif song_selection == 0:
+                clear()
+                print('0. Every song on the list')#If you add or delete songs you will need to change this otherwise it will break-
                 time.sleep(1)
-                pyautogui.press("enter")
-#poggers1337
-        else:
-            print('Invaild option!')
+                print('Starting in 5 seconds')
+                time.sleep(5)
+                f = open("Scripts/songs/blackbeatles.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+                f.close()
+                f = open("Scripts/songs/erkia.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+                f.close()
+                f = open("Scripts/songs/hatchback.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+                f.close()
+                f = open("Scripts/songs/rick_roll.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+                f.close()
+                f = open("Scripts/songs/Save_your_tears.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+                f.close()
+                f = open("Scripts/songs/wap.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+                f.close()
+                f = open("Scripts/songs/Save_your_tears.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+                f.close()
+                f = open("Scripts/songs/the_business.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+                f.close()
+                f = open("Scripts/songs/idwbil.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+                f.close()
+
+
+                print('Completed!')
+            elif song_selection == 2:
+                clear()
+                print('2. Dat Boi Sus Selected')
+                time.sleep(1)
+                print('Starting in 5 seconds')
+                time.sleep(5)
+                f = open("Scripts/songs/hatchback.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)
+                    pyautogui.press("enter")
+
+            elif song_selection == 3:
+                clear()
+                print('3. Wap Selected')
+                time.sleep(1)
+                print('Starting in 5 seconds')
+                time.sleep(5)#poggers1337
+                f = open("Scripts/songs/wap.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)
+                    pyautogui.press("enter")
+
+            elif song_selection == 4:
+                clear()
+                print('4. Black Beatles Selected')
+                time.sleep(1)
+                print('Starting in 5 seconds')
+                time.sleep(5)
+                f = open("Scripts/songs/blackbeatles.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)
+                    pyautogui.press("enter")
+            if song_selection == 5:
+                print('5. Erkia')
+                time.sleep(1)
+                print('Starting in 5 seconds')
+                time.sleep(5)
+                f = open("Scripts/songs/erkia.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+            if song_selection == 6:
+                clear()
+                print('6. Save your tears (Remix)')
+                time.sleep(1)
+                print('Starting in 5 seconds')
+                time.sleep(5)
+                f = open("Scripts/songs/Save_your_tears.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+            if song_selection == 7:
+                clear()
+                print('7. The Business')
+                time.sleep(1)
+                print('Starting in 5 seconds')
+                time.sleep(5)
+                f = open("Scripts/songs/the_business.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+            if song_selection == 8:
+                clear()
+                print("8. I don't wanna be in love")
+                time.sleep(1)
+                print('Starting in 5 seconds')
+                time.sleep(5)
+                f = open("Scripts/songs/idwbil.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+            if song_selection == 9:
+                print('')
+                time.sleep(1)
+                print('Starting in 5 seconds')
+                time.sleep(5)
+                f = open("Scripts/songs/.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+            if song_selection == 10:
+                print('')
+                time.sleep(1)
+                print('Starting in 5 seconds')
+                time.sleep(5)
+                f = open("Scripts/songs/.txt", 'r', encoding="utf8")
+                for word in f:
+                    pyautogui.press("shift" + "enter")
+                    pyautogui.typewrite(word)
+                    time.sleep(1)#poggers1337
+                    pyautogui.press("enter")
+    #poggers1337
+            else:
+                clear()
+                print('Invaild option!')
     elif i == 5:
+        clear()
         print('5. Inputted Text Repeted Selected!')
         print(
             '...........................................................................................................................')
@@ -705,6 +891,7 @@ while True:
         time.sleep(1)
         dangours_mode = input('Would you like to activate dangours mode? Y/N ')
         if dangours_mode.upper() == 'Y':
+            clear()
             time.sleep(1)
             repeat_times = int(input("How many messgaes: "))
             if repeat_times <= 1:
@@ -739,6 +926,7 @@ while True:
         print('Completed!')
         pyautogui.typewrite('Completed!')
     elif i == 6:
+        clear()
         print('6. Info Selected!')
         print('...........................................................................................................................')
         time.sleep(1)
@@ -756,9 +944,9 @@ while True:
         if support.upper() == 'Y':
             webbrowser.open(url='paypal.me/james1collum')#poggers1337
     elif i == 7:
+        clear()
         print('7.Dank memer bot selected!')
         time.sleep(1)
-        clear()
         how_times = int(input("How Many times: "))
         print('5 seconds before it starts')
         time.sleep(5)
@@ -769,6 +957,7 @@ while True:
         print("Finished!")
 
     elif i == 8:
+        clear()
         print('End')
         break
 
